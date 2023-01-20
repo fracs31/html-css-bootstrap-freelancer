@@ -24,6 +24,11 @@ ul, ol, menu {
     color: var(--white);
 }
 
+.navbar ul {
+    display: flex;
+    gap: 20px;
+}
+
 /* Sezioni del main */
 .main-content section {
     padding: 50px;
