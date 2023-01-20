@@ -1,6 +1,47 @@
 /* Regole generali */
+:root {
+    --navy: #2C3E50;
+    --light-navy: #3A546D;
+    --turquoise: #1ABC9C;
+    --white: #FFFFFF;
+    --black: #333333;
+}
+
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+}
+
+ul, ol, menu {
+    list-style: none;
+}
+
+/* Header */
+.main-header {
+    padding: 50px;
+    background-color: var(--navy);
+    color: var(--white);
+}
+
+/* Sezioni del main */
+.main-content section {
+    padding: 50px;
+    background-color: var(--white);
+}
+
+/* Colore di sfondo alternato per le sezioni del main */
+.main-content section:nth-last-child(2n) {
+    background-color: var(--turquoise);
+}
+
+/* Footer */
+.page-footer {
+    padding: 50px;
+    background-color: var(--navy);
+}
+
+/* Informazioni nel footer */
+.info {
+    background-color: var(--light-navy);
 }
