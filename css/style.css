@@ -227,6 +227,11 @@ a {
     background-color: none;
 }
 
+/* Bottone con sfondo turchese */
+.turquoise {
+    background-color: var(--turquoise);
+}
+
 /* Contact me section */
 .contact-me {
     padding-top: 85px;
@@ -235,9 +240,29 @@ a {
     text-transform: uppercase;
 }
 
+/* Riga contact me */
+.contact-me .row {
+    row-gap: 30px;
+}
+
 /* Titolo di contact me */
 .contact-me__title {
     font-size: 38px;
+}
+
+/* Form */
+.form {
+    text-align: left;
+    text-transform: none;
+}
+
+/* Input text e textarea del form */
+.form input[type="text"],
+.form textarea {
+    border: none;
+    border-bottom: 1px solid var(--black);
+    width: 100%;
+    margin-bottom: 10px;
 }
 
 /* Footer */
