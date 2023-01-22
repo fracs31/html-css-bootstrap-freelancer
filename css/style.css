@@ -63,6 +63,70 @@ ul, ol, menu {
     background-color: var(--white);
 }
 
+/* Hero */
+.hero {
+    padding-top: 65px;
+    padding-bottom: 75px;
+    color: var(--white);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* Riga */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Riga dell'Hero */
+.hero .row {
+    gap: 20px;
+}
+
+/* Colonna 12/12 */
+.col-12 {
+    flex-basis: calc((100% / 12) * 12);
+}
+
+/* Immagine dell'Hero */
+.hero__img {
+    width: 250px;
+}
+
+/* Titolo dell'Hero */
+.hero__title {
+    font-size: 38px;
+}
+
+/* Icona a forma di stella dell'Hero */
+.star {
+    font-size: 28px;
+}
+
+/* Linea bianca a sinistra della stella */
+.star::before {
+    content: '';
+    background-color: var(--white);
+    width: 170px;
+    height: 5px;
+    border-radius: 999px;
+    display: inline-block;
+    vertical-align: 5px;
+    margin-right: 20px;
+}
+
+/* Linea bianca a sinistra della stella */
+.star::after {
+    content: '';
+    background-color: var(--white);
+    width: 170px;
+    height: 5px;
+    border-radius: 999px;
+    display: inline-block;
+    vertical-align: 5px;
+    margin-left: 20px;
+}
+
 /* Colore di sfondo alternato per le sezioni del main */
 .main-content section:nth-last-child(2n) {
     background-color: var(--turquoise);
@@ -91,5 +155,15 @@ ul, ol, menu {
     /* Hamburger */
     .hamburger {
         display: block;
+    }
+    /* Linea a sinistra della stella */
+    .star::before {
+        width: 73px;
+        margin-right: 5px;
+    }
+    /* Linea a destra della stella */
+    .star::after {
+        width: 73px;
+        margin-left: 5px;
     }
 }
