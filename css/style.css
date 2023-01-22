@@ -321,7 +321,7 @@ a {
 /* Tablet */
 @media only screen and (max-width: 992px) {
     /* Colonna 4/12 */
-    .portfolio .col-4 {
+    .col-4 {
         flex-basis: calc((100% / 12) * 6);
     }
 }
