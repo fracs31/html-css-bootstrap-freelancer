@@ -63,6 +63,11 @@ ul, ol, menu {
     background-color: var(--white);
 }
 
+/* Colore di sfondo alternato per le sezioni del main */
+.main-content section:nth-last-child(2n) {
+    background-color: var(--turquoise);
+}
+
 /* Hero */
 .hero {
     padding-top: 65px;
@@ -127,9 +132,9 @@ ul, ol, menu {
     margin-left: 20px;
 }
 
-/* Colore di sfondo alternato per le sezioni del main */
-.main-content section:nth-last-child(2n) {
-    background-color: var(--turquoise);
+/* Portfolio */
+.portfolio {
+    padding: 85px 0px;
 }
 
 /* Footer */
