@@ -175,6 +175,29 @@ ul, ol, menu {
     border-radius: 10px;
 }
 
+/* About section */
+.about {
+    padding-top: 90px;
+    padding-bottom: 60px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Riga di about */
+.about .row {
+    row-gap: 20px;
+}
+
+/* Titolo dell'about */
+.about__title {
+    font-size: 38px;
+}
+
+/* Colonna 6/12 */
+.col-6 {
+    flex-basis: calc((100% / 12) * 6);
+}
+
 /* Footer */
 .page-footer {
     background-color: var(--navy);
