@@ -273,6 +273,8 @@ a {
 /* Informazioni nel footer */
 .info {
     background-color: var(--light-navy);
+    padding-top: 55px;
+    padding-bottom: 80px;
 }
 
 /* Tablet */
