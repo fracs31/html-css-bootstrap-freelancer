@@ -18,6 +18,11 @@ ul, ol, menu {
     list-style: none;
 }
 
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
 .container-lg {
     max-width: 1140px;
     margin: 0 auto;
@@ -185,7 +190,7 @@ ul, ol, menu {
 
 /* Riga di about */
 .about .row {
-    row-gap: 20px;
+    row-gap: 30px;
 }
 
 /* Titolo dell'about */
@@ -196,6 +201,30 @@ ul, ol, menu {
 /* Colonna 6/12 */
 .col-6 {
     flex-basis: calc((100% / 12) * 6);
+}
+
+/* Descrizione di about */
+.about__desc {
+    text-transform: none;
+    text-align: left;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+/* Bottone */
+.button {
+    color: var(--white);
+    text-transform: none;
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+/* Bottone senza sfondo */
+.transparent {
+    border-color: var(--white);
+    background-color: none;
 }
 
 /* Footer */
