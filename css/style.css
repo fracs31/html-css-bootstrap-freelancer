@@ -61,11 +61,13 @@ ul, ol, menu {
 /* Sezioni del main */
 .main-content section {
     background-color: var(--white);
+    color: var(--black);
 }
 
-/* Colore di sfondo alternato per le sezioni del main */
+/* Colori alternati per le sezioni del main */
 .main-content section:nth-last-child(2n) {
     background-color: var(--turquoise);
+    color: var(--white);
 }
 
 /* Hero */
@@ -111,7 +113,7 @@ ul, ol, menu {
 /* Linea bianca a sinistra della stella */
 .star::before {
     content: '';
-    background-color: var(--white);
+    background-color: var(--black);
     width: 170px;
     height: 5px;
     border-radius: 999px;
@@ -123,7 +125,7 @@ ul, ol, menu {
 /* Linea bianca a sinistra della stella */
 .star::after {
     content: '';
-    background-color: var(--white);
+    background-color: var(--black);
     width: 170px;
     height: 5px;
     border-radius: 999px;
@@ -132,9 +134,27 @@ ul, ol, menu {
     margin-left: 20px;
 }
 
+/* Colore di sfondo alternato delle linee delle stelle delle sezioni del main */
+.main-content section:nth-last-child(2n) .star::before,
+.main-content section:nth-last-child(2n) .star::after {
+    background-color: var(--white);
+}
+
 /* Portfolio */
 .portfolio {
     padding: 85px 0px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Titolo del portfolio */
+.portfolio__title {
+    font-size: 38px;
+}
+
+/* Colonna 4/12 */
+.col-4 {
+    flex-basis: calc((100% / 12) *4);
 }
 
 /* Footer */
