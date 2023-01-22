@@ -165,7 +165,6 @@ ul, ol, menu {
 /* Carta */
 .card {
     width: 100%;
-    min-height: 263px;
     border-radius: 10px;
 }
 
@@ -184,6 +183,14 @@ ul, ol, menu {
 /* Informazioni nel footer */
 .info {
     background-color: var(--light-navy);
+}
+
+/* Tablet */
+@media only screen and (max-width: 992px) {
+    /* Colonna 4/12 */
+    .col-4 {
+        flex-basis: calc((100% / 12) * 6);
+    }
 }
 
 /* Smartphone */
@@ -209,5 +216,9 @@ ul, ol, menu {
     .star::after {
         width: 73px;
         margin-left: 5px;
+    }
+    /* Tutte le colonne */
+    [class^="col"] {
+        flex-basis: calc((100% / 12) * 12);
     }
 }
