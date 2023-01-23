@@ -152,27 +152,6 @@ a {
     color: var(--white);
     padding-top: 55px;
     padding-bottom: 80px;
-    text-align: center;
-}
-
-/* Titolo informazioni footer */
-.info__title {
-    text-transform: uppercase;
-    padding-bottom: 20px;
-}
-
-/* Desrizione informazioni footer */
-.info__desc {
-    font-size: 18px;
-    line-height: 28px;
-}
-
-/* Lista social */
-.info__list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
 }
 
 /* Elementi della lista dei social */
@@ -186,10 +165,14 @@ a {
     border-radius: 999px;
 }
 
+/* Span colorato della descrizione nelle informazioni nel footer */
+.info__desc span {
+    color: var(--turquoise)
+}
+
 /* Copyright footer */
 .copyright {
     padding-top: 40px;
     padding-bottom: 55px;
-    text-align: center;
     color: var(--white);
 }
