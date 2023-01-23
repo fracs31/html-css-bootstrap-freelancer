@@ -173,14 +173,14 @@
             </div>
         </section>
         <!-- Contattami -->
-        <section class="contact-me">
+        <section class="contact-me text-center text-uppercase">
             <!-- Container -->
             <div class="container">
                 <!-- Riga -->
-                <div class="row">
+                <div class="row row-gap-3">
                     <!-- Colonna 12/12 -->
                     <div class="col-12">
-                        <h2 class="contact-me__title">Contact me</h2>
+                        <h2 class="contact-me__title fs-1">Contact me</h2>
                     </div>
                     <!-- Colonna 12/12 -->
                     <div class="col-12">
@@ -190,17 +190,22 @@
                     <!-- Colonna 12/12 -->
                     <div class="col-12">
                         <!-- Form -->
-                        <div class="form">
-                            <p>Name</p>
-                            <input type="text">
-                            <p>Email Address</p>
-                            <input type="text">
-                            <p>Phone Number</p>
-                            <input type="text">
-                            <p>Message</p>
-                            <textarea cols="30" rows="5"></textarea><br>
-                            <a class="button turquoise" href="#">Send</a>
-                        </div>
+                        <form class="form text-start px-5" action="">
+                            <!-- Nome -->
+                            <label class="d-block" for="name">Name</label>
+                            <input class="border border-0 border-bottom border-dark-subtle w-100 mb-3" type="text" id="name">
+                            <!-- Email -->
+                            <label class="d-block" for="email">Email Address</label>
+                            <input class="border border-0 border-bottom border-dark-subtle w-100 mb-3" type="email" id="email">
+                            <!-- Telefono -->
+                            <label class="d-block" for="phone">Phone Number</label>
+                            <input class="border border-0 border-bottom border-dark-subtle w-100 mb-3" type="tel" id="phone">
+                            <!-- Messaggio -->
+                            <label class="d-block" for="message">Message</label>
+                            <textarea class="border border-0 border-bottom border-dark-subtle w-100 mb-3" id="message"></textarea>
+                            <!-- Bottone -->
+                            <button type="button" class="btn btn-success">Send</button>
+                        </form>
                     </div>
                 </div>
             </div>

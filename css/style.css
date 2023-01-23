@@ -128,33 +128,17 @@ a {
 .contact-me {
     padding-top: 85px;
     padding-bottom: 60px;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-/* Riga contact me */
-.contact-me .row {
-    row-gap: 30px;
-}
-
-/* Titolo di contact me */
-.contact-me__title {
-    font-size: 38px;
 }
 
 /* Form */
 .form {
-    text-align: left;
     text-transform: none;
 }
 
-/* Input text e textarea del form */
-.form input[type="text"],
-.form textarea {
-    border: none;
-    border-bottom: 1px solid var(--black);
-    width: 100%;
-    margin-bottom: 10px;
+/* Bottone del form */
+.form .btn {
+    background-color: var(--turquoise);
+    border: 1px solid var(--turquoise);
 }
 
 /* Footer */
