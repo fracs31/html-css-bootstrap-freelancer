@@ -117,52 +117,11 @@ a {
 .about {
     padding-top: 90px;
     padding-bottom: 60px;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-/* Riga di about */
-.about .row {
-    row-gap: 30px;
-}
-
-/* Titolo dell'about */
-.about__title {
-    font-size: 38px;
-}
-
-/* Colonna 6/12 */
-.col-6 {
-    flex-basis: calc((100% / 12) * 6);
 }
 
 /* Descrizione di about */
 .about__desc {
     text-transform: none;
-    text-align: left;
-    font-size: 18px;
-    line-height: 28px;
-}
-
-/* Bottone */
-.button {
-    color: var(--white);
-    text-transform: none;
-    border: 1px solid;
-    border-radius: 4px;
-    padding: 5px 10px;
-    font-size: 16px;
-}
-
-/* Bottone senza sfondo */
-.transparent {
-    border-color: var(--white);
-    background-color: none;
-}
-
-/* Bottone con sfondo turchese */
-.turquoise {
-    background-color: var(--turquoise);
 }
 
 /* Contact me section */
