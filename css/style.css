@@ -29,21 +29,6 @@ a {
     padding: 30px 10px;
 }
 
-/* Navbar
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-transform: uppercase;
-} */
-
-/* Lista Navbar
-.navbar__list {
-    display: flex;
-    gap: 20px;
-    font-weight: bold;
-} */
-
 /* Hamburger */
 .hamburger {
     border: 1px solid var(--white);
@@ -113,33 +98,16 @@ a {
 /* Portfolio */
 .portfolio {
     padding: 85px 0px;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-/* Riga del portfolio */
-.portfolio .row {
-    row-gap: 30px;
-}
-
-/* Titolo del portfolio */
-.portfolio__title {
-    font-size: 38px;
-}
-
-/* Colonna 4/12 */
-.col-4 {
-    flex-basis: calc((100% / 12) *4);
 }
 
 /* Carta */
-.card {
+.ms__card {
     width: 100%;
     border-radius: 10px;
 }
 
 /* Immagine della carta */
-.card__img {
+.ms__card__img {
     width: 100%;
     display: block;
     border-radius: 10px;
